@@ -13,7 +13,7 @@ Download the original **mp_routes.csv** file from the Mountain Project dataset o
 ### 2. Preprocessing
 Run the `notebooks/preprocess.ipynb` notebook.
 *   This script cleans and filters the data for California routes.
-*   Upon completion, it will generate **3 CSV files** required for the database: `routes.csv`, `locations.csv`, and `relationships.csv`.
+*   Upon completion, it will generate **3 CSV files** required for the database: `neo4j_routes_california.csv`, `neo4j_locations_california.csv`, and `neo4j_relationships_california.csv`.
 
 ### 3. Neo4j Configuration
 1.  Create a new instance (Local DBMS) in **Neo4j Desktop**.
