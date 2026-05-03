@@ -28,11 +28,10 @@ Open **Neo4j Browser** and execute the code found in `cypher/neo4j_queries.cql`.
 *   Generate **64-dimensional FastRP Embeddings**.
 
 ### 5. Recommendation and Modeling (GNN)
-Open the `notebooks/Embeddings and GNN.ipynb` notebook and follow these steps:
+Open the `notebooks/embeddings_and_gnns.ipynb` notebook and follow these steps:
 1.  **Connection:** Locate the `Neo4j Driver` configuration cell and update your **password** to establish a connection.
 2.  **Recommendation:** Run the Cosine Similarity cells to search for similar routes by entering a route's internal ID.
 3.  **GNN Evaluation:** You can train the Regression and Classification models from scratch or load the final results.
-    *   *Note:* Performance is evaluated using the **Dice Score** (Macro-F1) to measure accuracy across athletic categories.
 
 ## 📂 Repository Structure
 
