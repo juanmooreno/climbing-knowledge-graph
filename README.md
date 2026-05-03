@@ -22,7 +22,7 @@ Run the `notebooks/preprocess.ipynb` notebook.
 4.  Start the database.
 
 ### 4. Graph Construction
-Open **Neo4j Browser** and execute the code found in `cypher/queries.cypher`. This script will:
+Open **Neo4j Browser** and execute the code found in `cypher/neo4j_queries.cql`. This script will:
 *   Build the geographic hierarchy (`Route > Sector > Area > Region`).
 *   Establish spatial `NEAR_TO` relationships for routes within 100m of each other.
 *   Generate **64-dimensional FastRP Embeddings**.
