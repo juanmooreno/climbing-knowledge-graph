@@ -7,9 +7,8 @@ ClimbingGraph is a hybrid system that utilizes **Neo4j** and **Graph Neural Netw
 Follow these steps in order to replicate the project environment and results.
 
 ### 1. Data Acquisition
-Download the original Mountain Project dataset from Kaggle:
-*   **Dataset:** [Mountain Project Dataset (pdegner)](https://www.kaggle.com/datasets/pdegner/mountain-project-dataset)
-*   Create a local folder named `data/` in the project root and place the downloaded file inside.
+Download the original mp_routes.csv file from the Mountain Project dataset in Kaggle:
+*   **Dataset:** [Mountain Project Dataset (pdegner)]([https://www.kaggle.com/datasets/pdegner/mountain-project-dataset](https://www.kaggle.com/datasets/pdegner/mountain-project-rotues-and-forums?select=mp_routes.csv))
 
 ### 2. Preprocessing
 Run the `notebooks/preprocess.ipynb` notebook.
